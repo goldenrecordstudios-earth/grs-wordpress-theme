@@ -1,0 +1,112 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "useRootPaddingAwareAlignments": true,
+    "border": {
+      "radius": true,
+      "color": true,
+      "style": true,
+      "width": true
+    },
+    "color": {
+      "custom": true,
+      "customDuotone": true,
+      "customGradient": true,
+      "duotone": [
+        {
+          "colors": [ "#000", "#FFF" ],
+          "slug": "black-and-white",
+          "name": "Black and White"
+        }
+      ],
+      "gradients": [],
+      "link": true,
+      "palette": [],
+      "text": true,
+      "background": true,
+      "defaultGradients": true,
+      "defaultPalette": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "blockGap": null,
+      "units": [ "px", "em", "rem", "vh", "vw" ]
+    },
+    "typography": {
+      "customFontSize": true,
+      "lineHeight": true,
+      "dropCap": true,
+      "fluid": true,
+      "fontStyle": true,
+      "fontWeight": true,
+      "letterSpacing": true,
+      "textDecoration": true,
+      "textTransform": true,
+      "fontSizes": [
+        {
+            "slug": "small",
+            "size": "0.75rem",
+            "name": "Small",
+            "fluid": {
+                "min": "12px",
+                "max": "16px"
+            }
+        },
+        {
+            "slug": "medium",
+            "size": "1.25rem",
+            "name": "Medium",
+            "fluid": {
+                "min": "16px",
+                "max": "24px"
+            }
+        },
+        {
+            "slug": "large",
+            "size": "1.5rem",
+            "name": "Large",
+            "fluid": {
+                "min": "24px",
+                "max": "32px"
+            }
+        },
+        {
+            "slug": "x-large",
+            "size": "2rem",
+            "name": "Extra Large",
+            "fluid": {
+                "min": "32px",
+                "max": "48px"
+            }
+        }
+      ],
+      "fontFamilies": [
+        {
+          "fontFace": [
+            {
+              "fontFamily": "GRS Demibold",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "src": [
+                "file:./assets/fonts/grs_demibold-webfont.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "\"GRS Demibold\", sans-serif",
+          "name": "GRS Demibold",
+          "slug": "grs-demibold"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "\"GRS Demibold\", sans-serif",
+      "fontSize": "var(--wp--preset--font-size--medium)"
+    }
+  }
+}
