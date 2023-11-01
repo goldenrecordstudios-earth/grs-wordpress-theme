@@ -29,6 +29,9 @@
       "defaultGradients": true,
       "defaultPalette": true
     },
+    "layout": {
+      "contentSize": "1024px"
+    },
     "spacing": {
       "margin": true,
       "padding": true,
@@ -107,6 +110,14 @@
     "typography": {
       "fontFamily": "\"GRS Demibold\", sans-serif",
       "fontSize": "var(--wp--preset--font-size--medium)"
+    },
+    "spacing": {
+      "padding": {
+        "top": "0.5rem",
+        "right": "0.5rem",
+        "bottom": "0.5rem",
+        "left": "0.5rem"
+      }
     }
   }
 }
