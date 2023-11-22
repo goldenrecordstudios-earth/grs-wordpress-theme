@@ -23,7 +23,23 @@
       ],
       "gradients": [],
       "link": true,
-      "palette": [],
+      "palette": [
+        {
+          "color": "#FF5A00",
+          "slug": "primary",
+          "name": "GRS Orange"
+        },
+        {
+          "color": "#414141",
+          "slug": "secondary",
+          "name": "GRS Grau"
+        },
+        {
+          "color": "#121212",
+          "slug": "third",
+          "name": "GRS Dunkelgrau"
+        }
+      ],
       "text": true,
       "background": true,
       "defaultGradients": true,
@@ -117,6 +133,37 @@
         "right": "0.5rem",
         "bottom": "0.5rem",
         "left": "0.5rem"
+      },
+      "margin": {
+        "top": "0.5rem",
+        "right": "0.5rem",
+        "bottom": "0.5rem",
+        "left": "0.5rem"
+      }
+    },
+    "color": {
+      "background": "var(--wp--preset--color--third)",
+      "text": "var(--wp--preset--color--white)"
+    },
+    "elements": {
+      "heading": {
+        "color": {
+          "text": "var(--wp--preset--color--primary)"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--primary)"
+        },
+        ":hover": {
+          "color": {
+            "background": "var(--wp--preset--color--primary)",
+            "text": "var(--wp--preset--color--third)"
+          },
+          "typography": {
+            "textDecoration": "none"
+          }
+        }
       }
     }
   }
